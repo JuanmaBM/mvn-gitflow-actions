@@ -4,7 +4,13 @@
 #
 # repository_path    snapshot_version
 # /home/root/example x.y.z-SNAPSHOT
-repositories_file="releases.txt"
+repositories_file=$1
+
+if [ -z "${repositories_file}" ]
+then
+  echo -e "\nReleases definition file must be defined by argument comandline"
+  exit 0
+fi
 
 while read line
 do

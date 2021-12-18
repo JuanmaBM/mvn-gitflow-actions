@@ -1,1 +1,0 @@
-/home/jmbarea/Documentos/Ferrovial/repository/OBO/ms-transaction-business-validation 0.14.0-SNAPSHOT
